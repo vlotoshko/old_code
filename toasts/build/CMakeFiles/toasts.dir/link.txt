@@ -1,0 +1,1 @@
+/usr/bin/c++   -g    CMakeFiles/toasts.dir/main.cpp.o CMakeFiles/toasts.dir/processes/container.cpp.o CMakeFiles/toasts.dir/processes/worker.cpp.o CMakeFiles/toasts.dir/processes/toaster.cpp.o CMakeFiles/toasts.dir/processes/butterer.cpp.o CMakeFiles/toasts.dir/processes/jammer.cpp.o CMakeFiles/toasts.dir/processes/controller.cpp.o  -o toasts -rdynamic -lZThread 

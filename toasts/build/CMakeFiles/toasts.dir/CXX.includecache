@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arete/Projects/toasts/processes/container.h
+deque
+-
+string
+-
+zthread/Guard.h
+-
+zthread/Mutex.h
+-
+zthread/Condition.h
+-
+zthread/CountedPtr.h
+-
+
+/home/arete/Projects/toasts/processes/toaster.cpp
+toaster_p.h
+/home/arete/Projects/toasts/processes/toaster_p.h
+
+/home/arete/Projects/toasts/processes/toaster_p.h
+zthread/Thread.h
+-
+worker.h
+/home/arete/Projects/toasts/processes/worker.h
+
+/home/arete/Projects/toasts/processes/worker.h
+container.h
+/home/arete/Projects/toasts/processes/container.h
+zthread/Runnable.h
+-
+

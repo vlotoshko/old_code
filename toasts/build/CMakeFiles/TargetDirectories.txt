@@ -1,0 +1,1 @@
+/home/arete/Projects/toasts/build/CMakeFiles/toasts.dir
